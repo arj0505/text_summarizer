@@ -1,0 +1,13 @@
+prefix=C:/Arjun_workstation/NLP_Models/Text_Summarization/venv/Library
+exec_prefix=C:/Arjun_workstation/NLP_Models/Text_Summarization/venv/Library
+libdir=C:/Arjun_workstation/NLP_Models/Text_Summarization/venv/Library/lib
+sharedlibdir=C:/Arjun_workstation/NLP_Models/Text_Summarization/venv/Library/lib
+includedir=C:/Arjun_workstation/NLP_Models/Text_Summarization/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
